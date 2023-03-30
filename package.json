@@ -1,0 +1,22 @@
+{
+  "name": "weomlandapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MujahidRizvi/WeomLandApi.git"
+  },
+  "author": "Mujahid Ali Rizvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MujahidRizvi/WeomLandApi/issues"
+  },
+  "homepage": "https://github.com/MujahidRizvi/WeomLandApi#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
