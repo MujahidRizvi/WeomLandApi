@@ -18,5 +18,8 @@
   "homepage": "https://github.com/MujahidRizvi/WeomLandApi#readme",
   "devDependencies": {
     "cypress": "^12.9.0"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
   }
 }
