@@ -1,5 +1,5 @@
 {
-  "signupUrl": "https://staging-gateway.wrld.xyz/auth/signUp?csrf-bypass=true",
+  "searchFilterUrl": "https://staging-services.weom.xyz/contracts/getSearchFilterPanel/1",
   "userInfoUrl": "https://staging-gateway.wrld.xyz/users/GetUserbySessionToken/?csrf-bypass=true",
   "updateScreenNameUrl": "https://staging-gateway.wrld.xyz/users/UpdateUserScreenName/1?csrf-bypass=true",
   "btoken": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY1Mjc5MDI1NCwiZXhwIjoxNjg0MzI2MjU0fQ.2vIFGELbH54q12-b1SIMwm0Eh7BLmdJMpPEX3E2XYy0",
@@ -18,10 +18,19 @@
       "email",
       "nonce"
   ],
-  "userInfoProperties": [
+  "searchFilterProperties": [
       "data",
       "success"
+      
   ],
+  "searchFilterData": [
+    "panel" 
+],
+"panelData": [
+    "value",
+    "attributes",
+    "trait_type" 
+],
   "userInfoErrorProperties": [
       "error",
       "success"
