@@ -1,5 +1,12 @@
 {
     "searchFilterUrl": "https://staging-services.weom.xyz/contracts/getSearchFilterPanel/1",
+    "latgetbylatlong": "https://staging-services.weom.xyz/assets/getAssetsByTypeAndLatLonRadius/?lat=-0.004204603&lon=&radius=1500&assetType=land",
+    "longgetbylatlong": "https://staging-services.weom.xyz/assets/getAssetsByTypeAndLatLonRadius/?lat=&lon=-0.027463817&radius=1500&assetType=land",
+    "agetbylatlong": "https://staging-services.weom.xyz/assets/getAssetsByTypeAndLatLonRadius/?lat=-0.004204603&lon=-0.027463817&radius=1500&assetType=",
+    "rgetbylatlong": "https://staging-services.weom.xyz/assets/getAssetsByTypeAndLatLonRadius/?lat=-0.004204603&lon=-0.027463817&radius=&assetType=land",
+    "getbylatlong": "https://staging-services.weom.xyz/assets/getAssetsByTypeAndLatLonRadius/?assetType=land&lat=-0.004204603&lon=-0.027463817&radius=1500",
+    "getById":"https://staging-services.weom.xyz/assets/GetById/1",
+    "bgetById":"https://staging-services.weom.xyz/assets/GetById/",
     "userInfoUrl": "https://staging-gateway.wrld.xyz/users/GetUserbySessionToken/?csrf-bypass=true",
     "updateScreenNameUrl": "https://staging-gateway.wrld.xyz/users/UpdateUserScreenName/1?csrf-bypass=true",
     "btoken": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY1Mjc5MDI1NCwiZXhwIjoxNjg0MzI2MjU0fQ.2vIFGELbH54q12-b1SIMwm0Eh7BLmdJMpPEX3E2XYy0",
@@ -22,6 +29,10 @@
         "data",
         "success"
     ],
+    "byidproperties": [
+        "data",
+        "success"
+    ],
     "searchFilterData": [
         "panel"
     ],
@@ -29,6 +40,9 @@
         "value",
         "attributes",
         "trait_type"
+    ],
+    "byidpanel": [
+        "price"
     ],
     "userInfoErrorProperties": [
         "error",
@@ -45,10 +59,12 @@
     ],
     "uid": 68,
     "id": 1,
+    "unauthorized": 401,
     "okStatus": 200,
     "badRequestStatus": 400,
     "unprocessableEntityStatus": 422,
     "internalServerErrorStatus": 500,
+    "notfound": 404,
     "msg": "message",
     "invalidProviderErrorMsg": "invalid provider type.",
     "notAuthenticatedErrorMsg": "Not authenticated.",
